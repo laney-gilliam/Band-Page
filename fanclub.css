@@ -1,0 +1,42 @@
+html {font-family: sans-serif;
+background:#C9CCF9}
+
+form {
+  width: 150px;
+  color: #C29F00;
+  padding: 5px;
+}
+
+h1 {
+  color: #C29F00;
+  padding: 5px;
+  padding-bottom: 1px;
+}
+
+button {
+  color: #C29F00;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+}
+
+input:focus, text area:focus {
+  box-shadow: 0 0 4px rgba(240, 0, 0, 0.5)
+  border: .5px solid #C29F00;
+}
+
+:-ms-input-placeholder {
+  color: #C29F00;
+  opacity: 1;
+  border: 20px;
+}
+
+::placeholder {
+  color: #C29F00;
+  opacity: 1;
+  border: 20px;
+}
